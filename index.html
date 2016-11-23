@@ -6,9 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./client/style.css">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-	
+	<link rel="stylesheet" href="./client/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -22,42 +22,43 @@
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Home</a>
+				<a class="navbar-brand" href="#"><i class="fa fa-rocket"></i> Lake Sammamish Run 13.1 : 2017</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">WHO</a></li>
-					<li><a href="#">WHAT</a></li>
-					<li><a href="#">WHERE</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<!-- <li><a href="#">WHAT</a></li>
+					<li><a href="#">WHERE</a></li> -->
 				</ul>
 			</div>
 	</div>
 </nav>
 
 	<div class="container">
-		<div id="clockdiv" class="row text-center" >
-			<div class="col-lg-3">
-				<h1><span class="days"></span></h1>
-				<h3>Days</h3>
-			</div>
-			<div class="col-lg-3">
-				<h1><span class="hours"></span></h1>
-				<h3>Hours</h3>
-			</div>
-			<div class="col-lg-3">
-				<h1><span class="minutes"></span></h1>
-				<h3>Minutes</h3>
-			</div>
-			<div class="col-lg-3">
-				<h1><span class="seconds"></span></h1>
-				<h3>Seconds</h3>
-			</div>
-		</div> 	
+		<div class="row">
+			<div id="clockdiv" class="text-center" >
+				<div class="col-lg-3">
+					<h1><span class="days"></span></h1>
+					<h3>Days</h3>
+				</div>
+				<div class="col-lg-3">
+					<h1><span class="hours"></span></h1>
+					<h3>Hours</h3>
+				</div>
+				<div class="col-lg-3">
+					<h1><span class="minutes"></span></h1>
+					<h3>Minutes</h3>
+				</div>
+				<div class="col-lg-3">
+					<h1><span class="seconds"></span></h1>
+					<h3>Seconds</h3>
+				</div>
+		</div>
 	</div>
-	<script src="main.js"></script>
+	</div>
+	<script src="./client/main.js"></script>
 
 </body>
 </html>
-
